@@ -18,7 +18,27 @@
 		5B3F735415BEC7FF000A16FC /* SMALocationSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F734E15BEC7FF000A16FC /* SMALocationSearchController.m */; };
 		5B3F735515BEC7FF000A16FC /* SMALocationSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F734F15BEC7FF000A16FC /* SMALocationSearchView.xib */; };
 		5B3F735615BEC7FF000A16FC /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F735115BEC7FF000A16FC /* StringHelper.m */; };
+		5B3F736315BEC8DC000A16FC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3F736215BEC8DC000A16FC /* CoreLocation.framework */; };
+		5B3F736515BEC8E0000A16FC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3F736415BEC8E0000A16FC /* MapKit.framework */; };
+		5B3F736815BEC91C000A16FC /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3F736115BEC8C8000A16FC /* libAFNetworking.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B3F736015BEC8C8000A16FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B3F735915BEC8C7000A16FC /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5B0EEA2415BCC0BF00D02071;
+			remoteInfo = AFNetworking;
+		};
+		5B3F736615BEC909000A16FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B3F735915BEC8C7000A16FC /* AFNetworking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B0EEA2315BCC0BF00D02071;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5B3F732E15BEC7DE000A16FC /* SMALocationSearchController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMALocationSearchController.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +60,9 @@
 		5B3F734F15BEC7FF000A16FC /* SMALocationSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMALocationSearchView.xib; sourceTree = "<group>"; };
 		5B3F735015BEC7FF000A16FC /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
 		5B3F735115BEC7FF000A16FC /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
+		5B3F735915BEC8C7000A16FC /* AFNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFNetworking.xcodeproj; path = ../../Library/AFNetworking/AFNetworking.xcodeproj; sourceTree = "<group>"; };
+		5B3F736215BEC8DC000A16FC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5B3F736415BEC8E0000A16FC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3F736815BEC91C000A16FC /* libAFNetworking.a in Frameworks */,
+				5B3F736515BEC8E0000A16FC /* MapKit.framework in Frameworks */,
+				5B3F736315BEC8DC000A16FC /* CoreLocation.framework in Frameworks */,
 				5B3F733315BEC7DE000A16FC /* UIKit.framework in Frameworks */,
 				5B3F733515BEC7DE000A16FC /* Foundation.framework in Frameworks */,
 				5B3F733715BEC7DE000A16FC /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +88,7 @@
 				5B3F733815BEC7DE000A16FC /* SMALocationSearchController */,
 				5B3F733115BEC7DE000A16FC /* Frameworks */,
 				5B3F732F15BEC7DE000A16FC /* Products */,
+				5B3F735915BEC8C7000A16FC /* AFNetworking.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +103,8 @@
 		5B3F733115BEC7DE000A16FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B3F736415BEC8E0000A16FC /* MapKit.framework */,
+				5B3F736215BEC8DC000A16FC /* CoreLocation.framework */,
 				5B3F733215BEC7DE000A16FC /* UIKit.framework */,
 				5B3F733415BEC7DE000A16FC /* Foundation.framework */,
 				5B3F733615BEC7DE000A16FC /* CoreGraphics.framework */,
@@ -129,6 +158,14 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		5B3F735A15BEC8C7000A16FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B3F736115BEC8C8000A16FC /* libAFNetworking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +180,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5B3F736715BEC909000A16FC /* PBXTargetDependency */,
 			);
 			name = SMALocationSearchController;
 			productName = SMALocationSearchController;
@@ -168,12 +206,28 @@
 			mainGroup = 5B3F732315BEC7DE000A16FC;
 			productRefGroup = 5B3F732F15BEC7DE000A16FC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5B3F735A15BEC8C7000A16FC /* Products */;
+					ProjectRef = 5B3F735915BEC8C7000A16FC /* AFNetworking.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5B3F732D15BEC7DE000A16FC /* SMALocationSearchController */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5B3F736115BEC8C8000A16FC /* libAFNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAFNetworking.a;
+			remoteRef = 5B3F736015BEC8C8000A16FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5B3F732C15BEC7DE000A16FC /* Resources */ = {
@@ -202,6 +256,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B3F736715BEC909000A16FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			targetProxy = 5B3F736615BEC909000A16FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5B3F733B15BEC7DE000A16FC /* InfoPlist.strings */ = {
