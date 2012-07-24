@@ -13,6 +13,11 @@
 		5B3F733D15BEC7DE000A16FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F733B15BEC7DE000A16FC /* InfoPlist.strings */; };
 		5B3F733F15BEC7DE000A16FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F733E15BEC7DE000A16FC /* main.m */; };
 		5B3F734315BEC7DE000A16FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F734215BEC7DE000A16FC /* AppDelegate.m */; };
+		5B3F735215BEC7FF000A16FC /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F734A15BEC7FF000A16FC /* DataHelper.m */; };
+		5B3F735315BEC7FF000A16FC /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F734C15BEC7FF000A16FC /* JSONKit.m */; };
+		5B3F735415BEC7FF000A16FC /* SMALocationSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F734E15BEC7FF000A16FC /* SMALocationSearchController.m */; };
+		5B3F735515BEC7FF000A16FC /* SMALocationSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F734F15BEC7FF000A16FC /* SMALocationSearchView.xib */; };
+		5B3F735615BEC7FF000A16FC /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F735115BEC7FF000A16FC /* StringHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,21 @@
 		5B3F733215BEC7DE000A16FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B3F733415BEC7DE000A16FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B3F733615BEC7DE000A16FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5B3F733A15BEC7DE000A16FC /* SMALocationSearchController-Info.plist */ = {isa = PBXFileReference; path = "SMALocationSearchController-Info.plist"; sourceTree = "<group>"; };
+		5B3F733A15BEC7DE000A16FC /* SMALocationSearchController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMALocationSearchController-Info.plist"; sourceTree = "<group>"; };
 		5B3F733C15BEC7DE000A16FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B3F733E15BEC7DE000A16FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B3F734015BEC7DE000A16FC /* SMALocationSearchController-Prefix.pch */ = {isa = PBXFileReference; path = "SMALocationSearchController-Prefix.pch"; sourceTree = "<group>"; };
-		5B3F734115BEC7DE000A16FC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B3F734015BEC7DE000A16FC /* SMALocationSearchController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMALocationSearchController-Prefix.pch"; sourceTree = "<group>"; };
+		5B3F734115BEC7DE000A16FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B3F734215BEC7DE000A16FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B3F734915BEC7FF000A16FC /* DataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHelper.h; sourceTree = "<group>"; };
+		5B3F734A15BEC7FF000A16FC /* DataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHelper.m; sourceTree = "<group>"; };
+		5B3F734B15BEC7FF000A16FC /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		5B3F734C15BEC7FF000A16FC /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		5B3F734D15BEC7FF000A16FC /* SMALocationSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMALocationSearchController.h; sourceTree = "<group>"; };
+		5B3F734E15BEC7FF000A16FC /* SMALocationSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMALocationSearchController.m; sourceTree = "<group>"; };
+		5B3F734F15BEC7FF000A16FC /* SMALocationSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMALocationSearchView.xib; sourceTree = "<group>"; };
+		5B3F735015BEC7FF000A16FC /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
+		5B3F735115BEC7FF000A16FC /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,10 @@
 			children = (
 				5B3F734115BEC7DE000A16FC /* AppDelegate.h */,
 				5B3F734215BEC7DE000A16FC /* AppDelegate.m */,
+				5B3F734D15BEC7FF000A16FC /* SMALocationSearchController.h */,
+				5B3F734E15BEC7FF000A16FC /* SMALocationSearchController.m */,
+				5B3F735715BEC811000A16FC /* Helpers */,
+				5B3F735815BEC81E000A16FC /* Resources */,
 				5B3F733915BEC7DE000A16FC /* Supporting Files */,
 			);
 			path = SMALocationSearchController;
@@ -88,6 +106,27 @@
 				5B3F734015BEC7DE000A16FC /* SMALocationSearchController-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B3F735715BEC811000A16FC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5B3F734915BEC7FF000A16FC /* DataHelper.h */,
+				5B3F734A15BEC7FF000A16FC /* DataHelper.m */,
+				5B3F734B15BEC7FF000A16FC /* JSONKit.h */,
+				5B3F734C15BEC7FF000A16FC /* JSONKit.m */,
+				5B3F735015BEC7FF000A16FC /* StringHelper.h */,
+				5B3F735115BEC7FF000A16FC /* StringHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		5B3F735815BEC81E000A16FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B3F734F15BEC7FF000A16FC /* SMALocationSearchView.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B3F733D15BEC7DE000A16FC /* InfoPlist.strings in Resources */,
+				5B3F735515BEC7FF000A16FC /* SMALocationSearchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +194,10 @@
 			files = (
 				5B3F733F15BEC7DE000A16FC /* main.m in Sources */,
 				5B3F734315BEC7DE000A16FC /* AppDelegate.m in Sources */,
+				5B3F735215BEC7FF000A16FC /* DataHelper.m in Sources */,
+				5B3F735315BEC7FF000A16FC /* JSONKit.m in Sources */,
+				5B3F735415BEC7FF000A16FC /* SMALocationSearchController.m in Sources */,
+				5B3F735615BEC7FF000A16FC /* StringHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
